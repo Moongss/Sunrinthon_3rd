@@ -29,7 +29,7 @@ public class FragmentMain extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
-        View view = LayoutInflater.from(getContext()).inflate(R.layout.fragment_main,null);
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.main_view,null);
         TextView time = (TextView) view.findViewById(R.id.section_label);
         time.setText("남은시간" + time.getText().toString());
         return view;

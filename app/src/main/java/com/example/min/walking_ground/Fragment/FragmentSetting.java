@@ -28,7 +28,7 @@ public class FragmentSetting extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
-        View view = LayoutInflater.from(getContext()).inflate(R.layout.fragment_setting,null);
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.profile_view,null);
         TextView total_walk = (TextView) view.findViewById(R.id.setting_total_walk);
         TextView now_mission_complete = (TextView) view.findViewById(R.id.setting_now_mission_complete);
         TextView max_mission_complete = (TextView) view.findViewById(R.id.setting_max_mission_complete);

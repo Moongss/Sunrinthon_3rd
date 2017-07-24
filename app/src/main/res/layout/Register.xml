@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ID : "
+            android:text="Name : "
             android:textSize="24dp"
             android:layout_gravity="center"/>
 
@@ -30,8 +30,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24dp"
-            android:hint="ID를 입력하세요"/>
+            android:hint="이름을 입력하세요"/>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="ID : "
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:hint="ID를 입력하세요"/>
     </LinearLayout>
 
     <LinearLayout
@@ -56,7 +76,28 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="200dp">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="PW확인 : "
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:inputType="textPassword"
+            android:hint="한번더 입력하세요"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
 
     </LinearLayout>
 
@@ -64,12 +105,6 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:text="Login"/>
+        android:text="Register"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="회원가입"
-        android:textSize="20sp"
-        android:background="@null"/>
 </LinearLayout>
